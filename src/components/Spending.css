@@ -1,0 +1,25 @@
+/* Spending.css */
+
+.spending-chart-container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.spending-chart-container:hover {
+  transform: translateY(-3px);
+}
+
+.spending-chart-title {
+  color: #38bdf8; /* accent blue */
+  margin-bottom: 10px;
+}
+
+.spending-chart-empty {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}

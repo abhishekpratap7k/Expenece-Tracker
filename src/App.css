@@ -1,0 +1,152 @@
+/* App.css */
+
+body {
+  background-color: #0f172a; /* dark blue/black background */
+  color: #f1f5f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.dashboard-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #38bdf8; /* bright blue accent */
+}
+
+.metrics-panel {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.metric-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.3s ease;
+}
+
+.metric-card:hover {
+  transform: translateY(-5px);
+}
+
+.metric-card span {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: #94a3b8;
+}
+
+.metric-card.total {
+  border: 2px solid #22c55e; /* green border */
+}
+
+.metric-card.pending {
+  border: 2px solid #f97316; /* orange border */
+}
+
+button {
+  background-color: #2563eb;
+  color: #f1f5f9;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+input,
+select {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.transaction-list,
+.summary,
+.filter-bar,
+.sort-bar,
+.add-income,
+.add-expense,
+.export-csv,
+.spending-chart {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.transaction-item {
+  background-color: #334155;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.transaction-item.expense {
+  border-left: 5px solid #ef4444; /* red accent */
+}
+
+.transaction-item.income {
+  border-left: 5px solid #22c55e; /* green accent */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+/* Pie chart or any chart styling (if using a library like Chart.js) */
+canvas {
+  background-color: #1e293b;
+  border-radius: 12px;
+}
+
+/* Dark mode toggle and logout button container styling */
+.dark-mode-toggle,
+.logout-button {
+  display: inline-block;
+  margin: 0 10px 20px 0;
+}
+
+/* Smooth transitions for hover effects */
+a, button, input, select {
+  transition: all 0.3s ease;
+}

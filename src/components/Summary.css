@@ -1,0 +1,50 @@
+/* Summary.css */
+
+.summary-panel {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.summary-card {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.summary-card:hover {
+  transform: translateY(-5px);
+}
+
+.summary-card h3 {
+  margin: 0 0 8px;
+  font-size: 1rem;
+  color: #94a3b8;
+}
+
+.summary-card p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.summary-card.green {
+  border-left: 4px solid #22c55e;
+}
+
+.summary-card.red {
+  border-left: 4px solid #ef4444;
+}
+
+.summary-card.positive {
+  border-left: 4px solid #22c55e;
+}
+
+.summary-card.negative {
+  border-left: 4px solid #ef4444;
+}

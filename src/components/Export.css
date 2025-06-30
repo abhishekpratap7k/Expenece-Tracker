@@ -1,0 +1,21 @@
+.export-container {
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.export-btn {
+  padding: 0.6rem 1.5rem;
+  background: linear-gradient(90deg, #f59e0b, #facc15);
+  color: #1f1f1f;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+  transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.export-btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #facc15, #f59e0b);
+}

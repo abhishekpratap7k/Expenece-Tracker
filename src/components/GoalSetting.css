@@ -1,0 +1,86 @@
+.goal-container {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+
+.goal-container h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #38bdf8;
+}
+
+.goal-bar-wrapper {
+  margin-bottom: 10px;
+}
+
+.goal-bar {
+  height: 18px;
+  background: #334155;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.goal-bar-fill {
+  background-color: #22c55e;
+  height: 100%;
+  transition: width 0.4s ease-in-out;
+}
+
+.goal-progress {
+  text-align: center;
+  margin-top: 5px;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+}
+
+.goal-input-wrapper {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.goal-input-wrapper input {
+  flex: 1;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #64748b;
+  background-color: #0f172a;
+  color: white;
+}
+
+.goal-input-wrapper button {
+  background-color: #3b82f6;
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.goal-input-wrapper button:hover {
+  background-color: #2563eb;
+}
+
+.goal-total {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 4px;
+  color: #38bdf8;
+}
+
+.reset-btn {
+  background-color: #f59e0b;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.reset-btn:hover {
+  background-color: #d97706;
+}

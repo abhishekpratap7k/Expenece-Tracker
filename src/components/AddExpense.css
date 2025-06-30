@@ -1,0 +1,58 @@
+/* AddExpense.css */
+
+.add-expense-form {
+  background-color: #1e293b; /* Dark card background */
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.add-expense-form:hover {
+  transform: translateY(-3px);
+}
+
+.form-title {
+  font-size: 1.2rem;
+  color: #38bdf8; /* Blue accent */
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.form-input {
+  background-color: #0f172a; /* Darker input background */
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  padding: 12px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.form-button {
+  background-color: #2563eb;
+  color: #f1f5f9;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.03);
+}
+
+.form-button:active {
+  transform: scale(0.97);
+}

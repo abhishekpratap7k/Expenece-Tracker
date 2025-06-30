@@ -1,0 +1,42 @@
+/* SortBar.css */
+
+.sortbar-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  background-color: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  margin-bottom: 20px;
+}
+
+.sort-btn {
+  flex: 1 1 180px;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  border: 1px solid #334155;
+  padding: 10px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sort-btn:hover {
+  background-color: #1e293b;
+  transform: scale(1.03);
+}
+
+.sort-btn:active {
+  transform: scale(0.97);
+}
+
+.sort-btn.blue {
+  border-left: 4px solid #38bdf8;
+}
+
+.sort-btn.green {
+  border-left: 4px solid #22c55e;
+}

@@ -1,0 +1,78 @@
+/* Register.css */
+
+body {
+  background-color: #0f172a;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.register-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.register-form {
+  background-color: #1e293b;
+  padding: 30px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  transition: transform 0.3s ease;
+}
+
+.register-form:hover {
+  transform: translateY(-3px);
+}
+
+.register-heading {
+  color: #38bdf8;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.register-error {
+  color: #ef4444;
+  text-align: center;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.register-input {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #f1f5f9;
+  padding: 12px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease;
+}
+
+.register-input:focus {
+  outline: none;
+  border-color: #38bdf8;
+}
+
+.register-button {
+  background-color: #22c55e;
+  color: #f1f5f9;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.register-button:hover {
+  background-color: #16a34a;
+  transform: scale(1.03);
+}
+
+.register-button:active {
+  transform: scale(0.97);
+}
