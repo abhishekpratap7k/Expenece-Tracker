@@ -1,12 +1,111 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 💸 Expense Tracker – React.js Project
 
-Currently, two official plugins are available:
+A feature-rich, responsive Expense Tracker built with React.js for managing personal finances. Users can log income and expenses, set monthly saving goals, and visualize spending trends with dynamic charts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 **Multi-User Login** with Email + Password or PIN (via sessionStorage)
+- 💰 **Add/Edit/Delete Income & Expenses** (per user, stored in localStorage)
+- 📊 **Spending Summary** and **Balance Calculation**
+- 📅 **Filter & Sort Transactions** by date or category
+- 🎯 **Monthly Goal Setting** with progress tracking
+- ♻️ **Auto-Renew Income Monthly** unless reset
+- 📈 **Pie and Line Charts** (via Recharts)
+- 🌙 **Dark Mode Toggle**
+- 📤 **Export to CSV**
+- 🧹 **Reset Transactions**
+- 📱 Fully **Responsive UI** and animated interactions
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js (Functional Components)
+- **State Management:** useState, useEffect
+- **Data Persistence:** localStorage & sessionStorage
+- **Charts:** Recharts
+- **Styling:** Tailwind CSS + Custom CSS Modules
+- **Routing:** react-router-dom
+
+---
+
+## 📂 Folder Structure
+
+```
+src/
+│
+├── components/
+│   ├── AddIncome.jsx
+│   ├── AddExpense.jsx
+│   ├── TransactionList.jsx
+│   ├── Summary.jsx
+│   ├── GoalSetting.jsx
+│   ├── FilterBar.jsx
+│   ├── SortBar.jsx
+│   ├── SpendingChart.jsx
+│   ├── ExportCSV.jsx
+│   ├── DarkModeToggle.jsx
+│   ├── Login.jsx
+│   ├── Register.jsx
+│   └── Logout.jsx
+│
+├── App.jsx
+├── App.css
+└── index.js
+```
+
+---
+
+## 🧠 Key Concepts Used
+
+- React Hooks: `useState`, `useEffect`
+- Modular Component Design
+- Form Handling & Validation
+- Data Storage (session/local)
+- Real-Time Chart Updates
+- Authentication Logic without Backend
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/expense-tracker-react.git
+cd expense-tracker-react
+npm install
+npm start
+```
+
+---
+
+## ✅ Usage
+
+1. Register or Login with Email + Password / PIN
+2. Set Monthly Income
+3. Add Expenses with Category + Amount
+4. Track goals and progress
+5. Export your records anytime!
+
+---
+
+## 📌 Note
+
+- No backend required – purely frontend project
+- Can be scaled using Firebase or any backend with authentication
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Abhishek Pratap**  
+Java & React Developer  
+[LinkedIn](https://www.linkedin.com/) • [GitHub](https://github.com/)
